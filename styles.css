@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#PersonalInfo {
+  display: in;
+  border: 1px solid red;
+}
+#PersonalInfo img {
+  height: 120px;
+  border-radius: 50%;
+}
