@@ -2,15 +2,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
   font-family: "Roboto", sans-serif;
 }
 body {
   background: url(assets/bg-dark.jpeg) no-repeat top center/cover;
+  height: 100vh;
 }
+#text {
+  color: white;
+}
+/*personal info*/
 
 #PersonalInfo {
   border: 1px solid red;
+}
+#PersonalInfo h1 {
+  display: flex;
+  flex-direction: row;
+  left: 15%;
+  top: 10px;
 }
 #PersonalInfo img {
   height: 120px;
