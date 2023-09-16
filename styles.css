@@ -8,14 +8,38 @@
   --main-color: white;
   --border-color: gray;
 }
+
+body {
+  background: url(assets/bg-dark.jpeg) no-repeat top center/cover;
+  height: 100vh;
+}
+/*personal info*/
 #info {
-  border: 1px solid red;
-  display: inline-block;
-  
+  display: flex;
+  border: 3px solid red;
+  width: auto;
+  height: 200px;
+}
+
+#img {
+  display: flex;
 }
 #img img {
   height: 120px;
   border-radius: 50%;
   margin: 10px 5px;
 }
-/*personal info*/
+#personalData {
+  color: var(--main-color);
+  border: 1px solid orange;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+#number a,
+#email a {
+  text-decoration: none;
+}
+a {
+  color: var(--main-color);
+}
