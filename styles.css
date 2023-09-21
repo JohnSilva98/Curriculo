@@ -14,6 +14,7 @@ body {
   height: 100vh;
 }
 /*personal info*/
+/* elemento pai*/
 #info {
   display: flex;
   border: 3px solid red;
@@ -21,9 +22,6 @@ body {
   height: 200px;
 }
 
-#img {
-  display: flex;
-}
 #img img {
   height: 120px;
   border-radius: 50%;
@@ -32,14 +30,43 @@ body {
 #personalData {
   color: var(--main-color);
   border: 1px solid orange;
-  display: flex;
-  flex-direction: column;
-  margin-top: 10px;
+  margin: 5px 5px;
+  width: fit-content;
+  font-size: 20px;
 }
+#socialMedia a,
 #number a,
 #email a {
   text-decoration: none;
 }
 a {
   color: var(--main-color);
+}
+
+#socialMedia {
+  height: 55px;
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+#socialMedia i:hover {
+  font-size: 55px;
+  color: gray;
+}
+#socialMedia i {
+  transition: 0.4s;
+  font-size: 50px;
+}
+#insta {
+  transition: 0.4s;
+  font-size: 50px;
+}
+#insta:hover {
+  font-size: 55px;
+  color: gray;
+}
+#pinfo {
+  font-size: 24px;
 }
