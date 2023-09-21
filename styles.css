@@ -12,6 +12,7 @@
 body {
   background: url(assets/bg-dark.jpeg) no-repeat top center/cover;
   height: 100vh;
+  overflow: hidden;
 }
 /*personal info*/
 /* elemento pai*/
@@ -86,6 +87,10 @@ a {
 }
 
 p {
+  margin-right: 15px;
   margin-top: 2px;
+  color: white;
+}
+#education {
   color: white;
 }
