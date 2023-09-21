@@ -31,7 +31,7 @@ body {
   color: var(--main-color);
   border: 1px solid orange;
   margin: 5px 5px;
-  width: fit-content;
+  width: 600px;
   font-size: 20px;
 }
 #socialMedia a,
@@ -69,4 +69,8 @@ a {
 }
 #pinfo {
   font-size: 24px;
+}
+
+p {
+  color: white;
 }
