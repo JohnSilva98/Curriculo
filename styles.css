@@ -17,9 +17,9 @@ body {
 /* elemento pai*/
 #info {
   display: flex;
-  border: 3px solid red;
   width: auto;
   height: 200px;
+  margin-top: 5px;
 }
 
 #img img {
@@ -29,10 +29,11 @@ body {
 }
 #personalData {
   color: var(--main-color);
-  border: 1px solid orange;
   margin: 5px 5px;
-  width: 600px;
   font-size: 20px;
+}
+#name {
+  width: 600px;
 }
 #socialMedia a,
 #number a,
@@ -71,6 +72,20 @@ a {
   font-size: 24px;
 }
 
+#number,
+#email {
+  transition: 0.5s;
+}
+#number:hover {
+  font-size: 26px;
+  color: gray;
+}
+#email:hover {
+  font-size: 26px;
+  color: gray;
+}
+
 p {
+  margin-top: 2px;
   color: white;
 }
