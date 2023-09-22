@@ -93,4 +93,5 @@ p {
 }
 #education {
   color: white;
+  justify-content: space-around;
 }
