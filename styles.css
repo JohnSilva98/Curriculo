@@ -15,8 +15,8 @@ body {
 }
 /*personal info*/
 #info {
+  border: 1px solid red;
   display: flex;
-  width: auto;
   height: 200px;
 }
 
@@ -29,16 +29,24 @@ body {
   margin: 10px 5px;
 }
 #personalData {
+  border: 2px solid blue;
   margin-left: 10px;
   color: var(--main-color);
   display: flex;
   flex-direction: column;
   margin-top: 10px;
 }
+
 #number a,
 #email a {
   text-decoration: none;
-}
-a {
   color: var(--main-color);
+}
+
+#resumo {
+  border: 1px solid green;
+  color: var(--main-color);
+}
+
+#resumo p {
 }
