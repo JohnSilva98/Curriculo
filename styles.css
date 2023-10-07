@@ -12,17 +12,18 @@
 body {
   background: url(assets/bg-dark.jpeg) no-repeat top center/cover;
   height: 100vh;
+  overflow: hidden;
 }
 /*personal info*/
+/* elemento pai*/
 #info {
   border: 1px solid red;
   display: flex;
+  width: auto;
   height: 200px;
+  margin-top: 5px;
 }
 
-#img {
-  display: flex;
-}
 #img img {
   height: 120px;
   border-radius: 50%;
@@ -32,21 +33,83 @@ body {
   border: 2px solid blue;
   margin-left: 10px;
   color: var(--main-color);
+<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   margin-top: 10px;
 }
 
+=======
+  margin: 5px 5px;
+  font-size: 20px;
+}
+#name {
+  width: 600px;
+}
+#socialMedia a,
+>>>>>>> ada968a95ba4a08900c6c48a5f1b3fe86a838a69
 #number a,
 #email a {
   text-decoration: none;
   color: var(--main-color);
 }
 
+<<<<<<< HEAD
 #resumo {
   border: 1px solid green;
   color: var(--main-color);
 }
 
 #resumo p {
+=======
+#socialMedia {
+  height: 55px;
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+#socialMedia i:hover {
+  font-size: 55px;
+  color: gray;
+}
+#socialMedia i {
+  transition: 0.4s;
+  font-size: 50px;
+}
+#insta {
+  transition: 0.4s;
+  font-size: 50px;
+}
+#insta:hover {
+  font-size: 55px;
+  color: gray;
+}
+#pinfo {
+  font-size: 24px;
+}
+
+#number,
+#email {
+  transition: 0.5s;
+}
+#number:hover {
+  font-size: 26px;
+  color: gray;
+}
+#email:hover {
+  font-size: 26px;
+  color: gray;
+}
+
+p {
+  margin-right: 15px;
+  margin-top: 2px;
+  color: white;
+}
+#education {
+  color: white;
+  justify-content: space-around;
+>>>>>>> ada968a95ba4a08900c6c48a5f1b3fe86a838a69
 }
